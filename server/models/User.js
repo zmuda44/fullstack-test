@@ -52,6 +52,6 @@ userSchema.virtual('bookCount').get(function () {
   return this.savedBooks.length;
 });
 
-const User = model('User', userSchema);
+const User = model('User1', userSchema);
 
 module.exports = User;
